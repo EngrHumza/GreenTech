@@ -1,0 +1,268 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topBar{
+    background-color: #0D7AA7;
+    
+}
+
+.container{
+    
+    width: 80%;
+    margin: auto;
+}
+
+.inline{
+    display: flex;
+}
+
+.fas, .fab, .far{
+    color: white;
+}
+
+#tel a, #mail{
+    text-decoration: none;
+    color: white;
+}
+
+.topContact{
+    flex: auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+.socialIcons{
+    flex: auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+.socialIcons i, .topContact ul li{
+    padding: 5px 15px;
+}
+
+.navBar{
+    background-color: #f7f8fa;
+    padding: 10px 0px;
+}
+
+.logo{
+    flex: auto;
+    padding: 5px 5px 5px 20px;
+}
+
+.menu{
+    flex: auto;
+    padding: 5px;
+    margin: auto;
+}
+
+.menuUl{
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.menuUlli{
+    padding: 5px 15px;
+}
+
+.dropDown{
+    position: relative;
+}
+
+.hoverDropdown{
+    display: none;
+}
+
+.hoverDropdown{
+    background-color: #f7f8fa;
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    left: 0px;
+}
+
+:hover>.hoverDropdown{
+    display: block;
+}
+
+.hoverDropdownli{
+    padding-top: 10px;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.containerSlider{
+    
+    width: 80%;
+    margin: auto;
+    
+}
+
+.welcome{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.container p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.cards{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f7f8fa;
+}
+
+.serviceCard{
+    display: flex;
+    justify-content: center;
+}
+
+.service{
+    border: 1px solid #f7f8fa;
+    background-color: #ffff;
+    box-shadow: 5px 5px 5px grey;
+    margin: 50px 50px 0px 50px;
+    text-align: center;
+    width: 25%;
+}
+
+.service div img{
+    width: 80%;
+}
+
+.service div h2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.marginTop{
+    margin-top: 40px;
+}
+
+.marginBottom{
+    margin-bottom: 40px;
+}
+
+.getQuote{
+    margin: 40px 0;
+    text-align: center;
+}
+
+.getQuote a{
+    text-decoration: none;
+    color: #f7f8fa;
+    text-align: center;
+    padding: 10px;
+    background-color: #0D7AA7;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.footerSection{
+    width: 100%;
+    background-color: #0D7AA7;
+}
+
+.footerCol{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.footerCol1{
+    flex: 1;
+}
+
+.footerCol2{
+    flex: 1;
+    text-align: center;
+}
+
+.footerCol3{
+    flex: 1;
+}
+
+.copyRight{
+    width: 100%;
+    background-color: #f7f8fa;
+}
+
+.textCenter{
+    margin: 10px auto;
+}
+
+.wdServices{
+    width: 100%;
+    background-color: #0D7AA7;
+}
+
+.wdHeading{
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.servicesPara{
+    width: 100%;
+    background-color: #f7f8fa;
+}
+
+.servicesPara .container div{
+    padding: 20px 20px 20px 20px;
+}
+
+/* responsive */
+
+@media (max-width:750px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:360px){
+    .container{
+        width: 80%;
+    }
+
+    .logo{
+        width: auto;
+    }
+
+    .menu{
+        width: auto;
+    }
+
+    menu ul li{
+        width: auto;
+    }
+}
